@@ -1,13 +1,12 @@
 # Use this space to code along with the readme
 
-phrase = "Hello World!"
-puts phrase
-puts phrase
-puts phrase
-puts phrase
-puts phrase
-puts phrase
-puts phrase
-puts phrase
-puts phrase
-puts phrase
+def hello_world
+  phrase = 'hello neil'
+  x = 0  
+  while x < 10  
+  puts phrase
+  x += 1 
+end
+end
+
+hello_world()
