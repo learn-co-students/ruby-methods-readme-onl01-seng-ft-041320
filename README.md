@@ -1,4 +1,4 @@
-# Methods in Ruby
+//# Methods in Ruby
 
 ## Overview
 
@@ -51,32 +51,6 @@ wanted to print and then the next ten lines literally print the phrase.
 Now imagine later in your program you again want to say "Hello World!" ten
 times. The entire program would look something like this:
 
-```ruby
-phrase = "Hello World!"
-puts phrase
-puts phrase
-puts phrase
-puts phrase
-puts phrase
-puts phrase
-puts phrase
-puts phrase
-puts phrase
-puts phrase
-
-# ... The rest of the program
-
-puts phrase
-puts phrase
-puts phrase
-puts phrase
-puts phrase
-puts phrase
-puts phrase
-puts phrase
-puts phrase
-puts phrase
-```
 
 We have to repeat the literal procedure for printing the value of `phrase` ten
 times. If variables encapsulate and abstract data, methods encapsulate and
